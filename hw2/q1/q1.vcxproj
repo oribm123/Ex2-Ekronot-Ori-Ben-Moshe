@@ -105,7 +105,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\Cyber_User\Desktop\Ekronot_HW\ex2\Ex2-Ekronot-Ori-Ben-Moshe\hw2\header</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Cyber_User\Desktop\Ekronot_HW\ex2\Ex2-Ekronot-Ori-Ben-Moshe\hw2\q1\header</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -133,7 +133,7 @@
     <ClCompile Include="Test1Device.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\header\Device.h" />
+    <ClInclude Include="header\Device.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
