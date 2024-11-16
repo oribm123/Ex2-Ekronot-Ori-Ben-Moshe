@@ -133,9 +133,12 @@
     <ClCompile Include="DeviceList.cpp" />
     <ClCompile Include="Page.cpp" />
     <ClCompile Include="Profile.cpp" />
+    <ClCompile Include="ProfileList.cpp" />
+    <ClCompile Include="SocialNetwork.cpp" />
     <ClCompile Include="Test1Device.cpp" />
     <ClCompile Include="test2User.cpp" />
     <ClCompile Include="test3Profile.cpp" />
+    <ClCompile Include="tester.cpp" />
     <ClCompile Include="User.cpp" />
     <ClCompile Include="UserList.cpp" />
   </ItemGroup>
@@ -144,6 +147,8 @@
     <ClInclude Include="header\DeviceList.h" />
     <ClInclude Include="header\Page.h" />
     <ClInclude Include="header\Profile.h" />
+    <ClInclude Include="header\ProfileList.h" />
+    <ClInclude Include="header\SocialNetwork.h" />
     <ClInclude Include="header\User.h" />
     <ClInclude Include="header\UserList.h" />
   </ItemGroup>
