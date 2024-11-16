@@ -1,4 +1,4 @@
-#include "User.h"
+  #include "User.h"
 
 void User::init(const unsigned int id, const std::string& username, const unsigned int age) {
 	this->_id = id;
@@ -9,6 +9,9 @@ void User::init(const unsigned int id, const std::string& username, const unsign
 
 void User::clear() {
 	this->_devices.clear();
+	this->_username = "";
+	this->_id = 0;
+	this->_age = 0;
 }
 
 unsigned int User::getID() const {

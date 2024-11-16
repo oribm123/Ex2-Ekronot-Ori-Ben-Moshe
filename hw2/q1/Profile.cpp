@@ -2,6 +2,8 @@
 
 void Profile::init(const User& owner) {
 	this->_owner = owner;
+	this->_page.init();
+	this->_friends.init();
 }
 
 void Profile::clear() {
