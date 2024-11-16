@@ -1,38 +1,38 @@
 #include "User.h"
 
-void User::init(const unsigned int id, const std::string username, const unsigned int age) {
-	this->id = id;
-	this->username = username;
-	this->age = age;
-	this->devices.init();
+void User::init(const unsigned int id, const std::string& username, const unsigned int age) {
+	this->_id = id;
+	this->_username = username;
+	this->_age = age;
+	this->_devices.init();
 }
 
 void User::clear() {
-	devices.clear();
+	this->_devices.clear();
 }
 
 unsigned int User::getID() const {
-	return id;
+	return this->_id;
 }
 
 std::string User::getUserName() const {
-	return username;
+	return this->_username;
 }
 
 unsigned int User::getAge() const {
-	return age;
+	return this->_age;
 }
 
 DevicesList& User::getDevices(){
-	return devices;
+	return this->_devices;
 }
 
 void User::addDevice(Device newDevice) {
-	this->devices.add(newDevice);
+	this->_devices.add(newDevice);
 }
 
 bool User::checkIfDevicesAreOn() const {
-	DeviceNode* current = devices.get_first();
+	DeviceNode* current = this->_devices.get_first();
 	while (current != nullptr) {
 		if (!current->get_data().isActive()) {
 			return false;
