@@ -1,7 +1,8 @@
 #pragma once
 #include <string>
 
-class Page {
+class Page 
+{
 private:
 	std::string _posts;
 	std::string _status;
